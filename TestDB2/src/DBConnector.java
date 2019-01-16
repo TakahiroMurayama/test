@@ -11,7 +11,7 @@ public class DBConnector {
 
 private static String driverName= "com.mysql.jdbc.Driver";
 private static String url=
-"jdbc:mysql://localhost/testdb2?autoReconnect=-true&useSSL=false";
+"jdbc:mysql://localhost/testdb2?autoReconnect=true&useSSL=false";
 
 private static String user= "root";
 
