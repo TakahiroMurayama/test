@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>HelloServlet</title>
+<title>Hello Servlet</title>
 </head>
 <body>
 
-<input type="button"  value="HelloServlet" onClick="location.href='HelloServlet'">
+<input type="button" value="HelloServlet" onClick="location.href='HelloServlet2'">
 <input type="button" value="WelcomeServlet" onClick="location.href='welcome.jsp'">
+<input type="button" value="問い合わせ" onClick="location.href='inquiry.jsp'">
 </body>
 </html>
