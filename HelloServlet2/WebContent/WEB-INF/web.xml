@@ -21,12 +21,19 @@
     <url-pattern>/HelloServlet2/WelcomeServlet</url-pattern>
   </servlet-mapping>
   <servlet>
-  <servlet-name>Inquiry</servlet-name>
-  <servlet-class>InquiryServlet</servlet-class>
+    <servlet-name>Inquiry</servlet-name>
+    <servlet-class>InquiryServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>Inquiry</servlet-name>
-  <url-pattern>/HelloServlet2/InquiryServlet</url-pattern>
-
+    <servlet-name>Inquiry</servlet-name>
+    <url-pattern>/HelloServlet2/InquiryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/HelloServlet2/TestServlet</url-pattern>
   </servlet-mapping>
 </web-app>
